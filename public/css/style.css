@@ -1,0 +1,67 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+body {
+  background-color: #F2F1EF;
+  padding: 50px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  color: #F27935;
+}
+
+div#messages {
+  width: 582px;
+  display: block;
+  margin-bottom: 10px;
+  height: 388px;
+  overflow-y: scroll;
+  /* border: 1px solid #DADFE1; */
+  background:
+  linear-gradient(#F2F1EF 30%, hsla(0,0%,100%,0)),
+  linear-gradient(hsla(0,0%,100%,0), #F2F1EF 70%) bottom,
+  radial-gradient(at top, rgba(0,0,0,.2), #F2F1EF 70%),
+  radial-gradient(at bottom, rgba(0,0,0,.2), #F2F1EF 70%) bottom;
+  background-repeat: no-repeat;
+  background-size: 100% 40px, 100% 40px, 100% 14px, 100% 14px;
+  background-attachment: local, local, scroll, scroll;
+}
+
+div.user span.online{
+  color: #2ECC71;
+}
+div.user span.away{
+  color: #F4D03F;
+}
+div#chat {
+}
+input#msg {
+  width: 100%;
+}
+
+form#message div{
+  margin-left: 15px;
+}
+span.username {
+}
+
+span.message {
+  color: #4B77BE;
+}
+div.message {
+  padding: 5px;
+  display: block;
+}
+div.message span { display: block; }
+
+div#users{
+  padding-top: 75px;
+  border-right: 1px dashed #DADFE1;
+  min-height: 500px;
+}
+
+div#users span {
+  padding-right: 5px;
+}
+
+

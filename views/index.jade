@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  div.row#chat
+    div.col-sm-3#users
+    div.col-sm-9.col-offset-3
+      h1 Chat
+      div#messages
+
+      div.row
+        form#message.form-inline(role='form',action='#')
+          div.col-xs-8.input-group
+            input#msg.form-control(type='text',autocomplete='off')
+            span.input-group-btn
+              input.btn.btn-default(rows=6,type='submit')
