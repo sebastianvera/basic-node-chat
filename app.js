@@ -10,6 +10,11 @@ var express = require('express')
   , socket = require('socket.io')
   , path = require('path');
 
+const {
+  foo,
+  bar,
+} = require('path');
+
 var app = express();
 var server = http.createServer(app);
 var io = socket.listen(server);
